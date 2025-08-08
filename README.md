@@ -33,19 +33,24 @@ Antes de ejecutar el script, edita el archivo y cambia la variable host con la I
 host = '192.168.31.1'  # Dirección del servidor que deseas evaluar
 
 ## 🧪 Ejemplo de cabecera enviada
+
 Range: bytes=0-,5-1,5-2,5-3,5-4,5-5,5-6,5-7,5-8,5-9
 
 ## ✅ Resultado esperado
+
 - Si el servidor no es vulnerable, responderá con un código 200 OK y servirá contenido normalmente.
 - Si el servidor es vulnerable, podrías observar lentitud, error 500, o incluso la caída del servidor.
 
 ## 🔐 Mitigación
+
 Los servidores Apache deben actualizarse a la versión 2.2.20 o superior. Alternativamente, se puede desactivar el uso de rangos o aplicar un parche manual.
 
 ## 📚 Referencias
+
 - CVE-2011-3192
 - Seclists Full Disclosure
 - Nmap NSE Script
 
 ## 👨‍💻 Autor
+
 Este script fue adaptado con fines educativos y de evaluación en entornos controlados. Úsalo con responsabilidad.
