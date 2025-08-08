@@ -30,11 +30,11 @@ Este script:
 python3 cve_2011_3192.py
 ```
 Antes de ejecutar el script, edita el archivo y cambia la variable host con la IP o dominio del servidor que quieres probar:
-host = '192.168.31.1' Dirección del servidor que deseas evaluar
+host = '192.168.31.1'
 
 ## 🧪 Ejemplo de cabecera enviada
 
-Range: bytes=0-,5-1,5-2,5-3,5-4,5-5,5-6,5-7,5-8,5-9
+Range: bytes=0-,5-1,5-2,5-3,5-4,5-5,5-6,5-7,5-8,5-9.
 
 ## ✅ Resultado esperado
 
@@ -47,9 +47,9 @@ Los servidores Apache deben actualizarse a la versión 2.2.20 o superior. Altern
 
 ## 📚 Referencias
 
-- CVE-2011-3192
-- Seclists Full Disclosure
-- Nmap NSE Script
+- CVE-2011-3192.
+- Seclists Full Disclosure.
+- Nmap NSE Script.
 
 ## 👨‍💻 Autor
 
