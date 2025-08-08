@@ -30,7 +30,7 @@ Este script:
 python3 cve_2011_3192.py
 ```
 Antes de ejecutar el script, edita el archivo y cambia la variable host con la IP o dominio del servidor que quieres probar:
-host = '192.168.31.1'  # Dirección del servidor que deseas evaluar
+host = '192.168.31.1' Dirección del servidor que deseas evaluar
 
 ## 🧪 Ejemplo de cabecera enviada
 
